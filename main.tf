@@ -259,7 +259,7 @@ resource "azurerm_route_map" "routemap2" {
       type = "Add"
 
       parameter {
-        as_path = ["64222"]
+        as_path = ["61234"]
       }
     }
 
@@ -771,3 +771,4 @@ router bgp 64444
   exit
 CUSTOM_DATA  
 }
+
