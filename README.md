@@ -8,3 +8,4 @@ The topology will look like this:
 You can run Terraform right from the Azure cloud shell by cloning this git repository with "git clone https://github.com/quiveringbacon/AzureVwanRoutmaplab-novpn.git ./terraform".
 
 Then, "cd terraform" then, "terraform init" and finally "terraform apply -auto-approve" to deploy.
+This is sometime fickle about deploying both routemaps and you may get an error, but you should be able to just re-run the deployment with the same parameters nad have it create the second routemap.
